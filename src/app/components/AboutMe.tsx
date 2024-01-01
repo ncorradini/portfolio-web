@@ -6,10 +6,10 @@ import ButtonWithIcon from 'app/shared/ButtonWithIcon';
 function AboutMe() {
   return (
     <section className="mt-[150px] flex max-w-[570px] flex-col gap-[32px]">
-      <h1 className="text-platinum border-l-vistaBlue border-l-4 border-solid pl-4 text-[48px] font-semibold leading-none md:text-[60px]">
+      <h1 className="border-l-4 border-solid border-l-vistaBlue pl-4 text-[48px] font-semibold leading-none text-platinum md:text-[60px]">
         Corradini Nicolás
       </h1>
-      <p className="text-platinum text-md font-light md:text-2xl">
+      <p className="text-md font-light text-platinum md:text-2xl">
         Soy desarrollador web con{' '}
         <span className="text-highlighted">+1 año de experiencia</span>. He
         participado en diversos proyectos, donde he desarrollado{' '}
