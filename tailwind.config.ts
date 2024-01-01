@@ -7,13 +7,16 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}'
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
-      }
-    }
+    screens: {
+      sm: '640px',
+      md: '768px'
+    },
+    colors: {
+      white: '#ffffff',
+      platinum: '#e5e5e5',
+      vistaBlue: '#7aa2ea'
+    },
+    extend: {}
   },
   // eslint-disable-next-line global-require
   plugins: [require('tailwindcss-animate')]
