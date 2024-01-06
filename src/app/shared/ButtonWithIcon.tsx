@@ -1,12 +1,16 @@
 import { ReactNode } from 'react';
 
 type Props = {
-  text: string;
-  icon: ReactNode;
-  href: string;
+  button: {
+    text: string;
+    icon: ReactNode;
+    href: string;
+  };
 };
 
-function ButtonWithIcon({ text, icon, href }: Props) {
+function ButtonWithIcon({ button }: Props) {
+  const { text, icon, href } = button;
+
   return (
     <button type="button">
       <a

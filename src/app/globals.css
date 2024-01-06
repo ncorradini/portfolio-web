@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 @layer components {
-  .text-highlighted {
+  * {
+    @apply text-platinum;
+  }
+  .text-highlighted, strong {
     @apply text-vistaBlue font-semibold;
   }
 }
