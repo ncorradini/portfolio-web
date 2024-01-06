@@ -1,6 +1,7 @@
 import EmailIcon from '@Icons/EmailIcon';
 import GitHubIcon from '@Icons/GitHubIcon';
 import LinkedInIcon from '@Icons/LinkedInIcon';
+import { GITHUB_LINK, GMAIL_LINK, LINKEDIN_LINK } from '@Utils/links';
 import ButtonWithIcon from 'app/shared/ButtonWithIcon';
 
 const ICON_SIZE = 'h-5';
@@ -9,17 +10,17 @@ const BUTTONS_LINKS = [
   {
     text: 'LinkedIn',
     icon: <LinkedInIcon className={ICON_SIZE} />,
-    href: 'https://www.linkedin.com/in/nicolascorradini/'
+    href: LINKEDIN_LINK
   },
   {
     text: 'GitHub',
     icon: <GitHubIcon className={ICON_SIZE} />,
-    href: 'https://github.com/ncorradini'
+    href: GITHUB_LINK
   },
   {
     text: 'nicocorradini471@gmail.com',
     icon: <EmailIcon className={ICON_SIZE} />,
-    href: 'mailto:nicocorradini471@gmail.com'
+    href: GMAIL_LINK
   }
 ];
 
