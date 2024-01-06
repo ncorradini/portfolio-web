@@ -5,16 +5,16 @@ import ButtonWithIcon from 'app/shared/ButtonWithIcon';
 
 function AboutMe() {
   return (
-    <section className="mt-[150px] flex max-w-[570px] flex-col gap-[32px]">
+    <section className="mt-[150px] flex max-w-[580px] flex-col gap-[32px]">
       <h1 className="border-l-4 border-solid border-l-vistaBlue pl-4 text-[48px] font-semibold leading-none text-platinum md:text-[60px]">
         Corradini Nicolás
       </h1>
       <p className="text-md font-light text-platinum md:text-2xl">
-        Soy desarrollador web con{' '}
-        <span className="text-highlighted">+1 año de experiencia</span>. He
-        participado en diversos proyectos, donde he desarrollado{' '}
+        Desarrollador web con{' '}
+        <span className="text-highlighted">+1 año de experiencia</span>.
+        Especializado en la construcción y mantenimiento de{' '}
         <span className="text-highlighted">UIs</span> y{' '}
-        <span className="text-highlighted">servicios REST</span>.
+        <span className="text-highlighted">servicios web</span>.
       </p>
       <div className="flex gap-4">
         <ButtonWithIcon
