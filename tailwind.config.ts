@@ -9,12 +9,16 @@ const config: Config = {
   theme: {
     screens: {
       sm: '640px',
-      md: '768px'
+      md: '768px',
+      container: '900px'
     },
     colors: {
       white: '#ffffff',
+      chineseBlack: '#101418',
       platinum: '#e5e5e5',
-      vistaBlue: '#7aa2ea'
+      lightAzure: '#6ab3fc',
+      cadetBlue: '#b0b8c4',
+      onyx: '#3a3a41'
     },
     extend: {}
   },

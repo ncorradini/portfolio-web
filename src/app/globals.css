@@ -2,11 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  color-scheme: light dark;
+}
+
 @layer components {
-  * {
+  h1, h2, p, li, time {
     @apply text-platinum;
   }
   .text-highlighted, strong {
-    @apply text-vistaBlue font-semibold;
+    @apply text-lightAzure font-semibold;
   }
 }
