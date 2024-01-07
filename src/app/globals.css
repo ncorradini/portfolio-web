@@ -4,6 +4,7 @@
 
 :root {
   color-scheme: light dark;
+  background-color: #13171c;
 }
 
 @layer components {

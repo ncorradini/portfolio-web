@@ -15,20 +15,20 @@ const EXPERIENCES: Experience[] = [
     position: 'Desarrollador web full-stack',
     company: 'Agencia Esto Es',
     description:
-      'Responsable del desarrollo de UIs dinámicas y servicios escalables con código eficiente. Colaboro en la traducción de requisitos a especificaciones técnicas. Gestiono despliegues y mantenimientos en entornos de producción.'
+      'Responsable del desarrollo de UIs dinámicas y servicios escalables con código eficiente. Colaboración en la traducción de requisitos a especificaciones técnicas. Gestión de despliegues y mantenimientos en entornos de producción.'
   },
   {
     date: 'Ago. 2022 - Oct. 2023',
     position: 'Desarrollador web front-end',
     company: 'Agencia Esto Es',
     description:
-      'Encargado del desarrollo de interfaces dinámicas y responsivas. Mejora en la escalabilidad y eficiencia de los proyectos.Implementación y mantenimiento de sitios en producción.'
+      'Encargado del desarrollo de interfaces dinámicas y responsivas. Mejora en la escalabilidad y eficiencia de los proyectos. Implementación y mantenimiento de sitios en producción.'
   }
 ];
 
 function JobExperience() {
   return (
-    <div className="min-h-[700px]">
+    <div className="pb-20">
       <h2 className="flex items-center gap-2 text-xl font-semibold leading-none md:gap-3 md:text-[32px]">
         <DevWorkIcon className="h-6 text-cadetBlue md:h-7" />
         Experiencia laboral
@@ -64,7 +64,7 @@ function PositionExperience({ experience }: PositionExperienceProps) {
       <h3 className="text-md mt-2 leading-5 text-lightAzure md:text-lg">
         <strong>{position}</strong>
         <br className="block md:hidden" />
-        <span className="text-xs text-white md:text-sm">- {company}</span>
+        <span className="text-xs text-white md:text-sm"> - {company}</span>
       </h3>
       <p className="mb-4 mt-2 text-sm text-cadetBlue md:mt-0 md:text-base">
         {description}

@@ -14,7 +14,7 @@ const config: Config = {
     },
     colors: {
       white: '#ffffff',
-      chineseBlack: '#101418',
+      chineseBlack: '#13171c',
       platinum: '#e5e5e5',
       lightAzure: '#6ab3fc',
       cadetBlue: '#b0b8c4',
