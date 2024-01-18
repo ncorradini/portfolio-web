@@ -5,6 +5,7 @@
 :root {
   color-scheme: light dark;
   background-color: #13171c;
+  scroll-behavior: smooth;
 }
 
 @layer components {

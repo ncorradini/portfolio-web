@@ -2,14 +2,14 @@ import DevWorkIcon from '@Icons/DevWorkIcon';
 import ButtonWithIcon from '@Shared/ButtonWithIcon';
 import { CV_LINK } from '@Utils/links';
 
-type Experience = {
+type TExperience = {
   date: string;
   position: string;
   company: string;
   description: string;
 };
 
-const EXPERIENCES: Experience[] = [
+const EXPERIENCES: TExperience[] = [
   {
     date: 'Oct. 2023 - Actualidad',
     position: 'Desarrollador web full-stack',
@@ -28,7 +28,7 @@ const EXPERIENCES: Experience[] = [
 
 function JobExperience() {
   return (
-    <div className="pb-20">
+    <section id="experience">
       <h2 className="flex items-center gap-2 text-xl font-semibold leading-none md:gap-3 md:text-[32px]">
         <DevWorkIcon className="h-6 text-cadetBlue md:h-7" />
         Experiencia laboral
@@ -42,17 +42,17 @@ function JobExperience() {
         button={{ text: 'Descargar CV', href: CV_LINK }}
         className="w-[200px]"
       />
-    </div>
+    </section>
   );
 }
 
 export default JobExperience;
 
-type PositionExperienceProps = {
-  experience: Experience;
+type TPositionExperienceProps = {
+  experience: TExperience;
 };
 
-function PositionExperience({ experience }: PositionExperienceProps) {
+function PositionExperience({ experience }: TPositionExperienceProps) {
   const { date, position, company, description } = experience;
 
   return (

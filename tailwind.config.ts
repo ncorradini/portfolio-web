@@ -16,7 +16,7 @@ const config: Config = {
       white: '#ffffff',
       chineseBlack: '#13171c',
       platinum: '#e5e5e5',
-      lightAzure: '#6ab3fc',
+      lightAzure: '#3b9cff',
       cadetBlue: '#b0b8c4',
       onyx: '#3a3a41'
     },
