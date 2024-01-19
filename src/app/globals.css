@@ -4,15 +4,14 @@
 
 :root {
   color-scheme: light dark;
-  background-color: #13171c;
   scroll-behavior: smooth;
 }
 
 @layer components {
   h1, h2, p, li, time {
-    @apply text-platinum;
+    @apply text-chineseBlack dark:text-platinum;
   }
   .text-highlighted, strong {
-    @apply text-lightAzure font-semibold;
+    @apply text-azure dark:text-lightAzure font-semibold;
   }
 }
