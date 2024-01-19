@@ -56,7 +56,7 @@ function StudyCareer({ studyCareer }: TStudyCareerProps) {
 
   return (
     <li className={`${divider} my-10 w-full`}>
-      <h3 className="text-md leading-6 text-white md:text-xl">
+      <h3 className="text-md leading-6 text-chineseBlack md:text-xl dark:text-white">
         {studyCareer.career}
       </h3>
       <a

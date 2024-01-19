@@ -1,15 +1,19 @@
 import Background from '@Components/Background';
+import Header from '@Components/Header';
 import AboutMe from '@Components/AboutMe';
 import JobExperience from '@Components/JobExperience';
+import Education from '@Components/Education';
 
 export default function Home() {
   return (
-    <main className="relative p-5 md:p-10">
+    <>
+      <Header />
       <Background />
-      <div className="container m-auto flex flex-col gap-[150px] md:gap-[200px]">
+      <main className="container relative m-auto flex flex-col gap-[150px] px-5 md:gap-[200px] md:px-0 md:pt-8">
         <AboutMe />
         <JobExperience />
-      </div>
-    </main>
+        <Education />
+      </main>
+    </>
   );
 }

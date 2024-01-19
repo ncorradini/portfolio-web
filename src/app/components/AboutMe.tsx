@@ -27,10 +27,10 @@ const BUTTONS_LINKS = [
 function AboutMe() {
   return (
     <section
-      id="presentation"
+      id="about-me"
       className="mt-[130px] flex max-w-[580px] flex-col gap-[32px] md:mt-[150px]"
     >
-      <h1 className="border-l-4 border-solid border-l-lightAzure pl-4 text-[48px] font-semibold leading-none md:text-[60px]">
+      <h1 className="border-l-azure border-l-4 border-solid pl-4 text-[48px] font-semibold leading-none md:text-[60px] dark:border-l-lightAzure">
         Corradini Nicolás
       </h1>
       <p className="text-md font-light md:text-2xl">
