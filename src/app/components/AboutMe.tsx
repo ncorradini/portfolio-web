@@ -1,28 +1,5 @@
-import EmailIcon from '@Icons/EmailIcon';
-import GitHubIcon from '@Icons/GitHubIcon';
-import LinkedInIcon from '@Icons/LinkedInIcon';
-import { GITHUB_LINK, GMAIL_LINK, LINKEDIN_LINK } from '@Utils/links';
+import { BUTTONS_LINKS } from '@Constants/about-links';
 import ButtonWithIcon from 'app/shared/ButtonWithIcon';
-
-const ICON_SIZE = 'h-5';
-
-const BUTTONS_LINKS = [
-  {
-    text: 'LinkedIn',
-    icon: <LinkedInIcon className={ICON_SIZE} />,
-    href: LINKEDIN_LINK
-  },
-  {
-    text: 'GitHub',
-    icon: <GitHubIcon className={ICON_SIZE} />,
-    href: GITHUB_LINK
-  },
-  {
-    text: 'nicocorradini471@gmail.com',
-    icon: <EmailIcon className={ICON_SIZE} />,
-    href: GMAIL_LINK
-  }
-];
 
 function AboutMe() {
   return (
@@ -30,7 +7,7 @@ function AboutMe() {
       id="about-me"
       className="mt-[130px] flex max-w-[580px] flex-col gap-[32px] md:mt-[150px]"
     >
-      <h1 className="border-l-azure border-l-4 border-solid pl-4 text-[48px] font-semibold leading-none md:text-[60px] dark:border-l-lightAzure">
+      <h1 className="border-l-4 border-solid border-l-azure pl-4 text-[48px] font-semibold leading-none md:text-[60px] dark:border-l-lightAzure">
         Corradini Nicolás
       </h1>
       <p className="text-md font-light md:text-2xl">

@@ -8,7 +8,7 @@ export function SwitcherMode() {
       onClick={handleClick}
       id="theme-toggle"
       type="button"
-      className="border-silverSand dark:border-blackOlive rounded-lg border border-solid p-1"
+      className="rounded-lg border border-solid border-silverSand p-1 dark:border-blackOlive"
     >
       <svg
         id="theme-toggle-dark-icon"

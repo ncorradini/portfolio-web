@@ -21,6 +21,7 @@
     ],
     "paths": {
       "@Components/*": ["app/components/*"],
+      "@Constants/*": ["app/constants/*"],
       "@Shared/*": ["app/shared/*"],
       "@Icons/*": ["app/icons/*"],
       "@Utils/*": ["app/utils/*"]

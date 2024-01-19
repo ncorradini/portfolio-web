@@ -1,27 +1,8 @@
 'use client';
 
-import { SwitcherMode } from '@Shared/SwitcherMode';
 import React from 'react';
-
-type TLinkSection = {
-  id: string;
-  text: string;
-};
-
-const LINK_SECTIONS: TLinkSection[] = [
-  {
-    id: 'about-me',
-    text: 'Sobre mí'
-  },
-  {
-    id: 'experience',
-    text: 'Experiencia'
-  },
-  {
-    id: 'education',
-    text: 'Educación'
-  }
-];
+import { SwitcherMode } from '@Shared/SwitcherMode';
+import { LINK_SECTIONS } from '@Constants/header-links';
 
 function Header() {
   const handleNavigation = (event: React.MouseEvent<HTMLAnchorElement>) => {
@@ -41,7 +22,7 @@ function Header() {
   };
 
   return (
-    <header className="border-silverSand sticky top-0 z-50 hidden h-[60px] w-full border-b border-solid bg-[#ffffff29] backdrop-blur md:block dark:border-onyx dark:bg-[#1014184a]">
+    <header className="sticky top-0 z-50 hidden h-[60px] w-full border-b border-solid border-silverSand bg-[#ffffff29] backdrop-blur md:block dark:border-onyx dark:bg-[#1014184a]">
       <div className="container m-auto h-full">
         <nav className="ml-auto flex h-full w-fit items-center gap-7 text-sm text-chineseBlack dark:text-platinum">
           {LINK_SECTIONS.map((link) => (
@@ -49,7 +30,7 @@ function Header() {
               key={link.id}
               href={`#${link.id}`}
               onClick={handleNavigation}
-              className="hover:text-darkSilver transition duration-200 dark:hover:text-cadetBlue"
+              className="transition duration-200 hover:text-darkSilver dark:hover:text-cadetBlue"
             >
               {link.text}
             </a>
