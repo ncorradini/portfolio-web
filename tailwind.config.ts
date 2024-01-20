@@ -15,6 +15,7 @@ const config: Config = {
     },
     colors: {
       white: '#ffffff',
+      black: '#000000',
       chineseBlack: '#13171c',
       platinum: '#e5e5e5',
       azure: '#007FFF',
@@ -25,7 +26,11 @@ const config: Config = {
       blackOlive: '#3d3d3d',
       darkSilver: '#707070'
     },
-    extend: {}
+    extend: {
+      fontFamily: {
+        sans: ['var(--font-geist-sans)']
+      }
+    }
   },
   // eslint-disable-next-line global-require
   plugins: [require('tailwindcss-animate')]

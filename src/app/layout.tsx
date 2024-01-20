@@ -1,17 +1,12 @@
 import type { Metadata } from 'next';
 import './globals.css';
-import { Onest } from 'next/font/google';
+import { GeistSans } from 'geist/font/sans';
 import React from 'react';
 
 export const metadata: Metadata = {
   title: 'Corradini Nicolás | Desarrollador web',
   description: 'Portofolio web de Corradini Nicolás, desarrollador web'
 };
-
-const onest = Onest({
-  subsets: ['latin'],
-  display: 'swap'
-});
 
 export default function RootLayout({
   children
@@ -20,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={`${onest.className} bg-white dark:bg-chineseBlack`}>
+      <body className={`${GeistSans.className} bg-white dark:bg-chineseBlack`}>
         {children}
       </body>
     </html>
