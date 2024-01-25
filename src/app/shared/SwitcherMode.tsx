@@ -8,11 +8,10 @@ export function SwitcherMode() {
       onClick={handleClick}
       id="theme-toggle"
       type="button"
-      className="rounded-lg border border-solid border-silverSand p-1 dark:border-blackOlive"
     >
       <svg
         id="theme-toggle-dark-icon"
-        className="block h-5 w-5 dark:hidden"
+        className="block h-6 w-6 dark:hidden"
         fill="#007FFF"
         viewBox="0 0 20 20"
       >
@@ -20,7 +19,7 @@ export function SwitcherMode() {
       </svg>
       <svg
         id="theme-toggle-light-icon"
-        className="hidden h-5 w-5 dark:block"
+        className="hidden h-6 w-6 dark:block"
         fill="#66B2FF"
         viewBox="0 0 20 20"
       >

@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <Header />
       <Background />
-      <main className="container relative m-auto flex flex-col gap-[150px] px-5 md:gap-[200px] md:px-0 md:pt-8">
+      <main className="container relative m-auto flex flex-col gap-[150px] px-5 md:gap-[150px]">
         <AboutMe />
         <JobExperience />
         <Education />

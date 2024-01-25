@@ -1,5 +1,4 @@
 import { EXPERIENCES, TExperience } from '@Constants/job-experiences';
-import DevWorkIcon from '@Icons/DevWorkIcon';
 import ButtonWithIcon from '@Shared/ButtonWithIcon';
 import { CV_LINK } from '@Utils/links';
 
@@ -7,7 +6,6 @@ function JobExperience() {
   return (
     <section id="experience">
       <h2 className="flex items-center gap-2 text-xl font-semibold leading-none md:gap-3 md:text-[32px]">
-        <DevWorkIcon className="h-6 text-chineseBlack/50 md:h-7 dark:text-cadetBlue" />
         Experiencia laboral
       </h2>
       <ol className="relative ml-1 mt-5 max-w-[700px] border-s border-cadetBlue md:ml-3 md:mt-10">
