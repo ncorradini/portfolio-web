@@ -1,4 +1,8 @@
-export function SwitcherMode() {
+type TSwitcherModeProps = {
+  className?: string
+}
+
+export function SwitcherMode({ className = '' }: TSwitcherModeProps) {
   const handleClick = () => {
     document.documentElement.classList.toggle('dark');
   };
@@ -8,19 +12,20 @@ export function SwitcherMode() {
       onClick={handleClick}
       id="theme-toggle"
       type="button"
+      className={className}
     >
       <svg
         id="theme-toggle-dark-icon"
-        className="block h-6 w-6 dark:hidden"
-        fill="#007FFF"
+        className="block h-5 w-5 dark:hidden"
+        fill="#000000"
         viewBox="0 0 20 20"
       >
         <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
       </svg>
       <svg
         id="theme-toggle-light-icon"
-        className="hidden h-6 w-6 dark:block"
-        fill="#66B2FF"
+        className="hidden h-5 w-5 dark:block"
+        fill="#FFFFFF"
         viewBox="0 0 20 20"
       >
         <path

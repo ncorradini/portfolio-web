@@ -5,7 +5,7 @@ function AboutMe() {
   return (
     <section
       id="about-me"
-      className="mt-[130px] flex max-w-[580px] flex-col gap-[32px] md:mt-[150px]"
+      className="mt-[80px] flex max-w-[580px] flex-col gap-[32px] md:mt-[150px]"
     >
       <h1 className="border-l-4 border-solid border-l-azure pl-4 text-[48px] font-semibold leading-none md:text-[60px] dark:border-l-lightAzure">
         Corradini Nicolás

@@ -23,10 +23,11 @@ type TStudyCareerProps = {
 
 function StudyCareer({ studyCareer }: TStudyCareerProps) {
   const divider =
-    studyCareer.id > 1 ? 'md:border-l border-solid border-onyx md:pl-14' : '';
+    studyCareer.id > 1 ? 'md:border-l border-solid border-silverSand dark:border-onyx md:pl-10' : '';
 
   return (
-    <li className={`${divider} my-10 w-full`}>
+    <>
+    <li className={`${divider} my-5 md:my-10 w-full`}>
       <h3 className="text-md leading-6 text-chineseBlack md:text-xl dark:text-white">
         {studyCareer.career}
       </h3>
@@ -40,5 +41,7 @@ function StudyCareer({ studyCareer }: TStudyCareerProps) {
       </a>
       <time className="text-xs  opacity-70 md:text-sm">{studyCareer.date}</time>
     </li>
+    {studyCareer.id < STUDY_CAREERS.length && <hr className='md:hidden block border-silverSand dark:border-onyx' />}
+    </>
   );
 }

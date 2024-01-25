@@ -11,7 +11,7 @@ const config: Config = {
     screens: {
       sm: '640px',
       md: '768px',
-      container: '900px'
+      container: '850px'
     },
     colors: {
       white: '#ffffff',

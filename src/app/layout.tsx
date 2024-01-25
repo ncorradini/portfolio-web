@@ -4,7 +4,7 @@ import { GeistSans } from 'geist/font/sans';
 import React from 'react';
 
 export const metadata: Metadata = {
-  title: 'Corradini Nicolás | Desarrollador web',
+  title: 'Corradini Nicolás',
   description: 'Portofolio web de Corradini Nicolás, desarrollador web'
 };
 
