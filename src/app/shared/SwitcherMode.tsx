@@ -1,6 +1,6 @@
 type TSwitcherModeProps = {
-  className?: string
-}
+  className?: string;
+};
 
 export function SwitcherMode({ className = '' }: TSwitcherModeProps) {
   const handleClick = () => {

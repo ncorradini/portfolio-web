@@ -9,8 +9,8 @@ function Header() {
   return (
     <header className="sticky top-0 z-50 h-[60px] w-full backdrop-blur">
       <div className="container m-auto flex h-full items-center justify-end gap-5 px-4 md:px-0">
-        <a href={LINKEDIN_LINK} target='_blank'>
-          <ContactIcon className="w-4 h-4 dark:text-white text-black" />
+        <a href={LINKEDIN_LINK} target="_blank" rel="noreferrer">
+          <ContactIcon className="h-4 w-4 text-black dark:text-white" />
         </a>
         <SwitcherMode />
       </div>

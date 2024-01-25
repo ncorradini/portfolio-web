@@ -23,25 +23,31 @@ type TStudyCareerProps = {
 
 function StudyCareer({ studyCareer }: TStudyCareerProps) {
   const divider =
-    studyCareer.id > 1 ? 'md:border-l border-solid border-silverSand dark:border-onyx md:pl-10' : '';
+    studyCareer.id > 1
+      ? 'md:border-l border-solid border-silverSand dark:border-onyx md:pl-10'
+      : '';
 
   return (
     <>
-    <li className={`${divider} my-5 md:my-10 w-full`}>
-      <h3 className="text-md leading-6 text-chineseBlack md:text-xl dark:text-white">
-        {studyCareer.career}
-      </h3>
-      <a
-        href={studyCareer.institution.href}
-        target="_blank"
-        rel="noreferrer"
-        className="block w-fit text-sm leading-6 text-lightAzure underline"
-      >
-        {studyCareer.institution.name}
-      </a>
-      <time className="text-xs  opacity-70 md:text-sm">{studyCareer.date}</time>
-    </li>
-    {studyCareer.id < STUDY_CAREERS.length && <hr className='md:hidden block border-silverSand dark:border-onyx' />}
+      <li className={`${divider} my-5 w-full md:my-10`}>
+        <h3 className="text-md leading-6 text-chineseBlack md:text-xl dark:text-white">
+          {studyCareer.career}
+        </h3>
+        <a
+          href={studyCareer.institution.href}
+          target="_blank"
+          rel="noreferrer"
+          className="block w-fit text-sm leading-6 text-lightAzure underline"
+        >
+          {studyCareer.institution.name}
+        </a>
+        <time className="text-xs  opacity-70 md:text-sm">
+          {studyCareer.date}
+        </time>
+      </li>
+      {studyCareer.id < STUDY_CAREERS.length && (
+        <hr className="block border-silverSand md:hidden dark:border-onyx" />
+      )}
     </>
   );
 }
