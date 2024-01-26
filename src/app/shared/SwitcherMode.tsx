@@ -1,19 +1,10 @@
-type TSwitcherModeProps = {
-  className?: string;
-};
-
-export function SwitcherMode({ className = '' }: TSwitcherModeProps) {
+export function SwitcherMode() {
   const handleClick = () => {
     document.documentElement.classList.toggle('dark');
   };
 
   return (
-    <button
-      onClick={handleClick}
-      id="theme-toggle"
-      type="button"
-      className={className}
-    >
+    <button onClick={handleClick} id="theme-toggle" type="button">
       <svg
         id="theme-toggle-dark-icon"
         className="block h-5 w-5 dark:hidden"

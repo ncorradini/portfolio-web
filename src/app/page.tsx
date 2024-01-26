@@ -6,6 +6,7 @@ import Header from '@Components/Header';
 import AboutMe from '@Components/AboutMe';
 import JobExperience from '@Components/JobExperience';
 import Education from '@Components/Education';
+import Footer from '@Components/Footer';
 
 export default function Home() {
   useEffect(() => {
@@ -21,6 +22,7 @@ export default function Home() {
         <JobExperience />
         <Education />
       </main>
+      <Footer />
     </>
   );
 }
