@@ -10,7 +10,7 @@ function Footer() {
         <p className="text-xs text-black/75 md:text-sm dark:text-white/50">
           © Corradini Nicolás {currentYear}
         </p>
-        <nav className="md:ap-5 flex gap-3">
+        <nav className="flex gap-3">
           {FOOTER_LINKS.map((button) => (
             <a href={button.href} target="_blank" rel="noreferrer">
               {button.icon}
