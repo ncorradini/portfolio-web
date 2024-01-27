@@ -16,7 +16,7 @@ export const STUDY_CAREERS: TStudyCareer[] = [
       name: 'Instituto Superior de Informática Virasoro',
       href: 'https://www.isiv.edu.ar/'
     },
-    date: '2021 - Cursado finalizado (29/30 materias aprobadas)'
+    date: '2021 - Cursado finalizado'
   },
   {
     id: 2,
