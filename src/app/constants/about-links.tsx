@@ -24,7 +24,7 @@ export const BUTTONS_LINKS: TButtonsLinks[] = [
     href: GITHUB_LINK
   },
   {
-    text: 'nicocorradini471@gmail.com',
+    text: 'nicolas.corradini.dev@gmail.com',
     icon: <EmailIcon className={ICON_SIZE} />,
     href: GMAIL_LINK
   }
