@@ -36,7 +36,7 @@ function PositionExperience({ experience }: TPositionExperienceProps) {
       <time className="mb-1 text-xs leading-none opacity-70 md:text-sm">
         {date}
       </time>
-      <h3 className="text-md mt-2 leading-5 text-lightAzure md:text-lg">
+      <h3 className="text-md mt-2 leading-5 text-desertSand md:text-lg">
         <strong>{position}</strong>
         <br className="block md:hidden" />
         <span className="text-xs text-chineseBlack md:text-sm dark:text-white">
@@ -44,7 +44,7 @@ function PositionExperience({ experience }: TPositionExperienceProps) {
           - {company}
         </span>
       </h3>
-      <p className="mb-4 mt-2 text-sm text-chineseBlack/70 md:mt-0 md:text-base dark:text-cadetBlue">
+      <p className="mb-4 mt-2 text-sm text-chineseBlack/80 md:mt-0 md:text-base dark:text-cadetBlue">
         {description}
       </p>
     </li>

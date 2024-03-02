@@ -16,10 +16,10 @@ const config: Config = {
     colors: {
       white: '#ffffff',
       black: '#000000',
-      chineseBlack: '#13171c',
+      chineseBlack: '#212429',
       platinum: '#e5e5e5',
-      azure: '#007FFF',
-      lightAzure: '#3b9cff',
+      cafeAuLait: '#a18057',
+      desertSand: '#e0caab',
       cadetBlue: '#b0b8c4',
       onyx: '#3a3a41',
       silverSand: '#c2c2c2',

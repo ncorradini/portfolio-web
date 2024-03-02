@@ -12,6 +12,12 @@
     @apply text-chineseBlack dark:text-platinum;
   }
   .text-highlighted, strong {
-    @apply text-azure dark:text-lightAzure font-semibold;
+    @apply text-cafeAuLait dark:text-desertSand font-semibold;
+  }
+  strong {
+    font-weight: 500;
+  }
+  *::selection {
+    @apply bg-desertSand text-chineseBlack;
   }
 }

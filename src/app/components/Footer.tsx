@@ -12,7 +12,7 @@ function Footer() {
         </p>
         <nav className="flex gap-3">
           {FOOTER_LINKS.map((button) => (
-            <a href={button.href} target="_blank" rel="noreferrer">
+            <a key={button.href} href={button.href} target="_blank" rel="noreferrer">
               {button.icon}
             </a>
           ))}

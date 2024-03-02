@@ -7,7 +7,7 @@ function AboutMe() {
       id="about-me"
       className="mt-[80px] flex max-w-[580px] flex-col gap-[32px] md:mt-[150px]"
     >
-      <h1 className="border-l-4 border-solid border-l-azure pl-4 text-[48px] font-semibold leading-none md:text-[60px] dark:border-l-lightAzure">
+      <h1 className="border-l-4 border-solid border-l-cafeAuLait pl-4 text-[48px] font-semibold leading-none md:text-[60px] dark:border-l-desertSand">
         Corradini Nicolás
       </h1>
       <p className="text-md font-light md:text-2xl">

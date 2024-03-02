@@ -37,7 +37,7 @@ function StudyCareer({ studyCareer }: TStudyCareerProps) {
           href={studyCareer.institution.href}
           target="_blank"
           rel="noreferrer"
-          className="block w-fit text-sm leading-6 text-lightAzure underline"
+          className="block w-fit text-sm leading-6 text-cafeAuLait dark:text-desertSand underline"
         >
           {studyCareer.institution.name}
         </a>
