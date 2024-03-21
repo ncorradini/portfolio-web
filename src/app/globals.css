@@ -1,23 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  color-scheme: light dark;
-  scroll-behavior: smooth;
-}
-
-@layer components {
-  h1, h2, p, li, time {
-    @apply text-chineseBlack dark:text-platinum;
-  }
-  .text-highlighted, strong {
-    @apply text-cafeAuLait dark:text-desertSand font-semibold;
-  }
-  strong {
-    font-weight: 500;
-  }
-  *::selection {
-    @apply bg-desertSand text-chineseBlack;
-  }
+* {
+  padding: 0;
+  margin: 0;
 }

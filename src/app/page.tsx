@@ -1,28 +1,26 @@
-'use client';
-
-import { useEffect } from 'react';
-import Background from '@Components/Background';
-import Header from '@Components/Header';
-import AboutMe from '@Components/AboutMe';
-import JobExperience from '@Components/JobExperience';
-import Education from '@Components/Education';
-import Footer from '@Components/Footer';
-
 export default function Home() {
-  useEffect(() => {
-    document.documentElement.classList.add('dark');
-  }, []);
-
   return (
-    <>
-      <Header />
-      <Background />
-      <main className="container relative m-auto flex flex-col gap-[100px] px-5 md:gap-[150px] md:px-0">
-        <AboutMe />
-        <JobExperience />
-        <Education />
-      </main>
-      <Footer />
-    </>
+    <main
+      style={{
+        width: '100vw',
+        height: '100vh',
+        background: '#000',
+        color: '#ffff',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexDirection: 'column',
+        gap: '10px'
+      }}
+    >
+      <h1>Sitio en construcción</h1>
+      <h3>Nicolás Corradini</h3>
+      <a
+        href="https://www.linkedin.com/in/nicolascorradini/"
+        style={{ color: 'cyan' }}
+      >
+        Perfil de LinkedIn
+      </a>
+    </main>
   );
 }
