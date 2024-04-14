@@ -80,8 +80,8 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
         {
           work.map((entry) => (
             <li>
-              <div class="text-white">{entry.data.role}</div>
-              <div class="flex text-sm opacity-75">
+              <h4 class="text-white">{entry.data.role}</h4>
+              <div class="flex text-sm opacity-75 md:mb-0 mb-2">
                 <a
                   href={entry.data.urlCompany}
                   class="flex items-center gap-2"
